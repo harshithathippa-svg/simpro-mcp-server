@@ -136,6 +136,4 @@ def get_cost_center(
 if __name__ == "__main__":
     print("Simpro MCP Server Started")
 
-    test_companies()
-
     mcp.run()
