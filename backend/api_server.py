@@ -3,7 +3,7 @@ import sys
 import json
 
 # ---------------- ROOT PATH ----------------
-ROOT_DIR = Path(__file__).resolve().parents[3]
+ROOT_DIR = Path(__file__).resolve().parent
 if str(ROOT_DIR) not in sys.path:
     sys.path.append(str(ROOT_DIR))
 
